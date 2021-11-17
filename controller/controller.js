@@ -43,8 +43,8 @@ exports.postInterest = (req, res) => {
 exports.ReadInfo = (req, res) => {
   interest
     .find()
-    .populate("childInterestId", "-_id")
-    .exec()
+    .populate("childInterestId")
+    // .exec()
     .then((result) => {
       console.log(result);
       res.json({ message: result });

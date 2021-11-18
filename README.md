@@ -13,7 +13,6 @@
     * Express
     * body-parser
     * mongoose
-    * path
 
 # How to Install
 
@@ -21,7 +20,7 @@
 
 # How to Start Server
 
-    * "node server.js"
+    * "node latitude.js"
 
 # How to Create Interest
 
@@ -66,10 +65,6 @@ _ Similarly you can create Child Interest
 
 https://user-images.githubusercontent.com/75901043/142200764-06ba5b3d-1bb4-473e-8f8e-125c264fccaa.mp4
 
-
     * Testing the API using Postman
-    
 
 https://user-images.githubusercontent.com/75901043/142201013-745dc3fd-d4e0-4bfc-976a-5efdcdf1e5ec.mp4
-
-
